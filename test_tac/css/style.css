@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 300px;
+}
+.main {
+  width: 280px;
+  height: 234px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(211,211,211,0.94);
+          box-shadow: 0px 0px 2px 2px rgba(211,211,211,0.94);
+}
+.content {
+  margin: 8px auto;
+  width: 264px;
+  border-image-repeat: repeat;
+  border-image-source: url(../img/border.png);
+  border-image-slice: 8;
+	border-style: solid;
+}
+.content h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 13px 0 0 20px;
+}
+.content p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #949494;
+  padding: 0 0 0 20px;
+}
+.content span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+}
+.progress {
+  width: 248px;
+  height: 103px;
+  margin: 10px auto;
+  border: 2px solid #d4e9f6;
+  border-radius: 5px;
+}
+.progress h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  margin-left: 10px;
+}
+#progressbar {
+  width: 230px;
+  height: 15px;
+  margin: 10px auto;
+}
+#progressbar .ui-progressbar-value {
+  background-color: #9ecbe8;
+}
+#progressbar .ui-widget-header {
+  background: #9ecbe8!important
+}
+#numButton {
+  width: 115px;
+  height: 27px;
+  margin: 5px 0 10px 10px;
+  background: #4459b4;
+  color: #ffffff;
+  border: 1px solid #0b1f74;
+  border-radius: 5px;
+}
+.progress p {
+  position: relative;
+  bottom: 42px;
+  left: 110px;
+}
+.number {
+  position: relative;
+  bottom: 239px;
+  left: 248px;
+  width: 26px;
+  height: 18px;
+  border: 3px solid #ffffff;
+  border-radius: 6px;
+  background: #63c556;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  font-weight: bold;
+}
